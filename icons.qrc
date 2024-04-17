@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/plus.png</file>
+        <file>icons/mimus.png</file>
+        <file>fonto/behance-65a9ae29a5cd4.ttf</file>
+    </qresource>
+</RCC>

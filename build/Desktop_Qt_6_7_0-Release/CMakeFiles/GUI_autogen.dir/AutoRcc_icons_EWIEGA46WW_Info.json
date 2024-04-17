@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Release/GUI_autogen",
+	"CMAKE_BINARY_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/akane/GUI",
+	"CMAKE_SOURCE_DIR" : "/home/akane/GUI",
+	"INCLUDE_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Release/GUI_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/akane/GUI/fonto/behance-65a9ae29a5cd4.ttf",
+		"/home/akane/GUI/icons/plus.png",
+		"/home/akane/GUI/icons/mimus.png"
+	],
+	"LOCK_FILE" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Release/CMakeFiles/GUI_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "/home/akane/Qt/6.7.0/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Release/CMakeFiles/GUI_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/akane/GUI/icons.qrc",
+	"VERBOSITY" : 0
+}
