@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>977</width>
-    <height>704</height>
+    <width>1124</width>
+    <height>951</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -48,7 +48,7 @@
      <rect>
       <x>10</x>
       <y>80</y>
-      <width>461</width>
+      <width>561</width>
       <height>161</height>
      </rect>
     </property>
@@ -75,19 +75,31 @@ QGroupBox::title {
       <rect>
        <x>10</x>
        <y>40</y>
-       <width>431</width>
+       <width>531</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu Condensed</family>
+       <pointsize>10</pointsize>
+      </font>
      </property>
     </widget>
     <widget class="QTextEdit" name="textEdit_3">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>100</y>
-       <width>431</width>
+       <y>110</y>
+       <width>531</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu Condensed</family>
+       <pointsize>10</pointsize>
+      </font>
      </property>
     </widget>
     <widget class="QLabel" name="label">
@@ -95,14 +107,14 @@ QGroupBox::title {
       <rect>
        <x>10</x>
        <y>15</y>
-       <width>91</width>
+       <width>121</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Uroob</family>
-       <pointsize>15</pointsize>
+       <family>Ubuntu Condensed</family>
+       <pointsize>18</pointsize>
        <italic>false</italic>
       </font>
      </property>
@@ -110,7 +122,7 @@ QGroupBox::title {
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>🎦CAMERA1</string>
+      <string>📹CAMERA1</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_2">
@@ -124,15 +136,15 @@ QGroupBox::title {
      </property>
      <property name="font">
       <font>
-       <family>Uroob</family>
-       <pointsize>15</pointsize>
+       <family>Ubuntu Condensed</family>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="styleSheet">
       <string notr="true"/>
      </property>
      <property name="text">
-      <string>🎦CAMERA2</string>
+      <string>📹CAMERA2</string>
      </property>
     </widget>
    </widget>
@@ -141,14 +153,15 @@ QGroupBox::title {
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>461</width>
+      <width>561</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Dhurjati</family>
+      <family>Ubuntu Mono</family>
       <pointsize>31</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -172,9 +185,14 @@ QGroupBox::title {
      <rect>
       <x>10</x>
       <y>300</y>
-      <width>281</width>
-      <height>351</height>
+      <width>331</width>
+      <height>601</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QGroupBox {
@@ -197,11 +215,18 @@ QGroupBox::title {
     <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>230</y>
+       <x>20</x>
+       <y>390</y>
        <width>101</width>
-       <height>41</height>
+       <height>81</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu Condensed</family>
+       <pointsize>20</pointsize>
+       <bold>false</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
@@ -229,11 +254,18 @@ QPushButton:pressed {
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>290</y>
+       <x>20</x>
+       <y>490</y>
        <width>101</width>
-       <height>41</height>
+       <height>81</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu Condensed</family>
+       <pointsize>18</pointsize>
+       <bold>false</bold>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton {
@@ -261,9 +293,9 @@ QPushButton:pressed {
     <widget class="QLCDNumber" name="lcdNumber">
      <property name="geometry">
       <rect>
-       <x>130</x>
-       <y>220</y>
-       <width>131</width>
+       <x>150</x>
+       <y>450</y>
+       <width>171</width>
        <height>121</height>
       </rect>
      </property>
@@ -284,11 +316,17 @@ QPushButton:pressed {
     <widget class="QTextBrowser" name="textBrowser">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>100</y>
-       <width>256</width>
-       <height>111</height>
+       <x>15</x>
+       <y>130</y>
+       <width>271</width>
+       <height>251</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu Condensed</family>
+       <pointsize>18</pointsize>
+      </font>
      </property>
      <property name="styleSheet">
       <string notr="true">    QTextBrowser{
@@ -297,7 +335,7 @@ QPushButton:pressed {
     border-style: double;
     border-width: 0px;
     border-color: black;
-    border-radius: 0px;
+    border-radius: 12px;
 }</string>
      </property>
      <property name="html">
@@ -307,22 +345,24 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu Condensed'; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QSpinBox" name="spinBox">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>20</x>
        <y>50</y>
-       <width>71</width>
-       <height>41</height>
+       <width>101</width>
+       <height>71</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Uroob</family>
+       <family>Ubuntu Mono</family>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
       </font>
      </property>
      <property name="mouseTracking">
@@ -347,16 +387,16 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <widget class="QCommandLinkButton" name="commandLinkButton">
      <property name="geometry">
       <rect>
-       <x>100</x>
-       <y>60</y>
+       <x>140</x>
+       <y>80</y>
        <width>161</width>
-       <height>31</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Uroob</family>
-       <pointsize>13</pointsize>
+       <family>Ubuntu Condensed</family>
+       <pointsize>14</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -365,7 +405,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
  }</string>
      </property>
      <property name="text">
-      <string>SET AND CREAR</string>
+      <string>SET AND CLEAR</string>
      </property>
      <property name="iconSize">
       <size>
@@ -383,16 +423,16 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>20</y>
-       <width>181</width>
-       <height>21</height>
+       <x>20</x>
+       <y>10</y>
+       <width>191</width>
+       <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Uroob</family>
-       <pointsize>15</pointsize>
+       <family>Ubuntu Condensed</family>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -400,7 +440,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
    </string>
      </property>
      <property name="text">
-      <string>shooting interval(milli sec)</string>
+      <string>shooting interval[ms]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>410</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu Condensed</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: black;
+    background-color: none;
+    border-style: solid;
+    border-width: 0px;
+    border-color:black;
+    border-radius: 0px;</string>
+     </property>
+     <property name="text">
+      <string>Number of shots</string>
      </property>
     </widget>
    </widget>
@@ -409,14 +476,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <rect>
       <x>10</x>
       <y>250</y>
-      <width>281</width>
+      <width>331</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Dhurjati</family>
+      <family>Ubuntu Mono</family>
       <pointsize>23</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -438,22 +506,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QTextBrowser" name="textBrowser_2">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>320</y>
-      <width>171</width>
-      <height>331</height>
+      <x>350</x>
+      <y>340</y>
+      <width>221</width>
+      <height>561</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Uroob</family>
+      <family>Ubuntu Mono</family>
+      <pointsize>72</pointsize>
       <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QTextBrowser{
     color: black;
-    background-color: rgba(220, 220, 220, 20%); 
+    background-color: rgba(220, 220, 220, 30%); 
     border-style: double;
     border-width: 1.5px;
     border-color: black;
@@ -467,15 +536,15 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Uroob'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;&amp;quot;Please &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; color:#ff7800;&quot;&gt;do not &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;set the shooting interval to&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; color:#ff7800;&quot;&gt; less than&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; color:#ff7800;&quot;&gt;600 milliseconds&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;.&amp;quot;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;&amp;quot;Please be sure to enter the URL into &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; color:#ff7800;&quot;&gt;camera-info&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt; before shooting.&amp;quot;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; color:#ff7800;&quot;&gt;↩&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu';&quot;&gt;&amp;quot;might be miscounting a few pictures occasionally, sorry!😁&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu Mono'; font-size:72pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&amp;quot;Please &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt; color:#ff7800;&quot;&gt;do not &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;set the shooting interval to&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt; color:#ff7800;&quot;&gt; less than&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt; color:#ff7800;&quot;&gt;600 milliseconds&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;.&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&amp;quot;Please be sure to enter the URL into &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt; color:#ff7800;&quot;&gt;camera-info&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt;&quot;&gt; before shooting.&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:22pt; color:#ff7800;&quot;&gt;↩&lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:18pt;&quot;&gt;&amp;quot;might be miscounting a few pictures occasionally, sorry!😁&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="acceptRichText">
      <bool>true</bool>
@@ -484,17 +553,17 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>250</y>
-      <width>141</width>
+      <x>360</x>
+      <y>260</y>
+      <width>201</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Uroob</family>
-      <pointsize>28</pointsize>
-      <bold>false</bold>
+      <family>Ubuntu Mono</family>
+      <pointsize>40</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -509,16 +578,17 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>580</x>
       <y>10</y>
-      <width>461</width>
+      <width>531</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Dhurjati</family>
+      <family>Ubuntu Mono</family>
       <pointsize>31</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -534,7 +604,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <string>RTAB-MAP 🗺</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -559,13 +629,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
    </string>
     </property>
     <property name="text">
-     <string>Comming Soon :)</string>
+     <string> :)</string>
     </property>
    </widget>
    <widget class="QMdiArea" name="mdiArea">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>670</x>
       <y>190</y>
       <width>381</width>
       <height>311</height>
@@ -578,8 +648,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>977</width>
-     <height>27</height>
+     <width>1124</width>
+     <height>17</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuinterval">

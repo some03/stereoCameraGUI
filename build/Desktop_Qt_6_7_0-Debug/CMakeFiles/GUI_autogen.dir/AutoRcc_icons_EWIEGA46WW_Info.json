@@ -1,24 +1,24 @@
 {
-	"BUILD_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Debug/GUI_autogen",
-	"CMAKE_BINARY_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/akane/GUI",
-	"CMAKE_SOURCE_DIR" : "/home/akane/GUI",
-	"INCLUDE_DIR" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Debug/GUI_autogen/include",
+	"BUILD_DIR" : "/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Debug/GUI_autogen",
+	"CMAKE_BINARY_DIR" : "/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/some/stereoCameraGUI",
+	"CMAKE_SOURCE_DIR" : "/home/some/stereoCameraGUI",
+	"INCLUDE_DIR" : "/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Debug/GUI_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/akane/GUI/fonto/behance-65a9ae29a5cd4.ttf",
-		"/home/akane/GUI/icons/plus.png",
-		"/home/akane/GUI/icons/mimus.png"
+		"/home/some/stereoCameraGUI/fonto/behance-65a9ae29a5cd4.ttf",
+		"/home/some/stereoCameraGUI/icons/plus.png",
+		"/home/some/stereoCameraGUI/icons/mimus.png"
 	],
-	"LOCK_FILE" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/GUI_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"LOCK_FILE" : "/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/GUI_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "icons" ],
 	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
 	"OUTPUT_NAME" : "qrc_icons.cpp",
-	"RCC_EXECUTABLE" : "/home/akane/Qt/6.7.0/gcc_64/./libexec/rcc",
+	"RCC_EXECUTABLE" : "/home/some/Qt/6.7.0/gcc_64/./libexec/rcc",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "/home/akane/GUI/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/GUI_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
-	"SOURCE" : "/home/akane/GUI/icons.qrc",
+	"SETTINGS_FILE" : "/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/GUI_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/some/stereoCameraGUI/icons.qrc",
 	"VERBOSITY" : 0
 }

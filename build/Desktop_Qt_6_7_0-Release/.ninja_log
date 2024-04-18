@@ -1,0 +1,18 @@
+# ninja log v5
+0	358	1713420153610629598	GUI_autogen/timestamp	8f68c49539e61842
+0	358	1713420153610629598	GUI_autogen/mocs_compilation.cpp	8f68c49539e61842
+0	358	1713420153610629598	/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Release/GUI_autogen/timestamp	8f68c49539e61842
+0	358	1713420153610629598	/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Release/GUI_autogen/mocs_compilation.cpp	8f68c49539e61842
+359	387	1713420153640629605	GUI_autogen/EWIEGA46WW/qrc_icons.cpp	809732ea2fab22df
+359	387	1713420153640629605	/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Release/GUI_autogen/EWIEGA46WW/qrc_icons.cpp	809732ea2fab22df
+388	498	1713420153750629627	CMakeFiles/GUI.dir/GUI_autogen/EWIEGA46WW/qrc_icons.cpp.o	1625decfeb485945
+388	2736	1713420155990629364	CMakeFiles/GUI.dir/main.cpp.o	78f870aacd70b5ae
+387	2782	1713420156030629266	CMakeFiles/GUI.dir/GUI_autogen/mocs_compilation.cpp.o	7186315d21f3a3ee
+388	3354	1713420156610627862	CMakeFiles/GUI.dir/mainwindow.cpp.o	2312868d197e982c
+3354	4004	1713420157250626313	GUI	4fa705b3e90cc595
+2	36	1713422302390359007	GUI_autogen/timestamp	8f68c49539e61842
+2	36	1713422302390359007	GUI_autogen/mocs_compilation.cpp	8f68c49539e61842
+2	36	1713422302390359007	/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Release/GUI_autogen/timestamp	8f68c49539e61842
+2	36	1713422302390359007	/home/some/stereoCameraGUI/build/Desktop_Qt_6_7_0-Release/GUI_autogen/mocs_compilation.cpp	8f68c49539e61842
+37	2135	1713422304470358738	CMakeFiles/GUI.dir/mainwindow.cpp.o	2312868d197e982c
+2135	2617	1713422304970358672	GUI	4fa705b3e90cc595

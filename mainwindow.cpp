@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include"timelaps.h"
+//#include"timelaps.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -33,9 +33,9 @@ void MainWindow::httpCallback(){
 }
 void MainWindow::handleReply(QNetworkReply* reply){
     if (reply->error()) {
-        num+=1;
+        //num+=1;
         ui->textBrowser->append("▷ERROR:Request failed:");
-        ui->lcdNumber->display(num);// Display a specific number
+        //ui->lcdNumber->display(num);// Display a specific number
 
     }else{
         //num++;
