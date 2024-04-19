@@ -1,0 +1,10 @@
+Package: GUI
+Version: 0.0.0
+Maintainer: uchida
+Section: misc
+Architecture: amd64
+Installed-Size: 45
+Priority: optional
+Depends: libqt6widgets6 (>= 6.2.4+dfsg-2ubuntu1.1),libqt6widgets6 (>= 6.2.4+dfsg-2ubuntu1.1),libqt6widgets6 (>= 6.2.4+dfsg-2ubuntu1.1),libglx0 (>= 1.4.0-1),libopengl0 (>= 1.4.0-1),libqt6core6 (>= 6.2.4+dfsg-2ubuntu1.1), libstdc++6 (>= 12.3.0-1ubuntu1~22.04),libgcc1 (>= 1:8.3.0-6ubuntu1~18.04),libc6 (>= 2.35-0ubuntu3.6)
+Description: deb package creation test.
+ deb package creation test of an application which depends on Qt5 libraries.
