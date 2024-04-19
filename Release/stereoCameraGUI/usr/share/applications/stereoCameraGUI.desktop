@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=stereoCameraGUI
+Version=0.0.0
+Exec=/usr/bin/debCreationTest
+Comment=stereo camera gui deb
+
+#可能な値 → Application, Link, Directory
+Type=Application
+
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+
+#カテゴリ。
+#例: 2DGraphics, Accessibility, Application, ArcadeGame, Archiving, Audio, AudioVideo, BlocksGame,
+#BoardGame, Calculator, Calendar, CardGame, Compression, ContactManagement, Core, DesktopSettings,
+#Development, Dictionary, DiscBurning, Documentation, Email, FileManager, FileTransfer, Game, GNOME,
+#Graphics, GTK, HardwareSettings, InstantMessaging, KDE, LogicGame, Math, Monitor, Network, OCR, Office,
+#P2P, PackageManager, Photography, Player, Presentation, Printing, Qt, RasterGraphics, Recorder,
+#RemoteAccess, Scanning, Screensaver, Security, Settings, Spreadsheet, System, Telephony,
+#TerminalEmulator, TextEditor, Utility, VectorGraphics, Video, Viewer, WordProcessor, Wine,
+#WineProgramsAccessories, XGNOMENetworkSettings, XGNOME-PersonalSettings, X-GNOME-SystemSettings,
+#X-KDE-More, X-Red-Hat-Base, X-SuSE-ControlCenter-System
+Categories=Application;
